@@ -1,0 +1,100 @@
+.EntrySign-body {
+    overflow: hidden;
+}
+.a_all {
+    min-width: 1400px;
+
+}
+.b_all {
+    background-image: url(/images/bg/bg_registered.png);
+    background-size: cover;
+    background-color: #b8e5f8;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    padding-right: 15px;
+}
+.b_all .container {
+    -webkit-box-flex: 1;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 688px;
+    height: calc(100% - 42px);
+}
+.b_all .card {
+    overflow: visible;
+}
+.SignContainer-content {
+    width: 432px;
+    /*margin: 0 auto;*/
+    text-align: center;
+    color: #0f88eb;
+}
+.x_all_a {
+    background-color: rgb(255, 255, 255);
+}
+.x_title_r {
+    font-size: 64px;
+    font-family: 楷体;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+.x_title_r_c {
+    font-size: 30px;
+    font-family: 楷体;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+.x_regis {
+    position: relative;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-bottom: 1px solid rgb(235, 235, 235);
+}
+.x_regis input {
+    border: none;
+}
+.x_regis_protocol {
+    width: 300px;
+    margin: 20px 0 30px 66px;
+    text-align: left;
+}
+.x_protocol {
+    color: #8590a6;
+    font-size: 14px;
+}
+.x_bottom {
+    background: #f6f6f6;
+}
+.x_bottom_a {
+    width: 100%;
+    height: 63px;
+    line-height: 63px;
+    text-align: center;
+}
+.x_bottom_a span {
+    color: #000;
+}
+.x_bottom_a a {
+    text-decoration: none;
+}
+.x_app {
+    width: 100%;
+    margin-top: 30px;
+    background: #8590a6;
+    color: rgb(240, 240, 240);
+}
+.x_is {
+    position: absolute;
+    display: none;
+    top: 9px;
+    right: 5px;
+    color: rgb(240, 10, 10);
+    font-size: 12px;
+    font-family: 微软雅黑;
+}
